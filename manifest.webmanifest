@@ -1,0 +1,24 @@
+{
+  "name": "FOURTH ME — 인생 표지판",
+  "short_name": "FOURTH ME",
+  "description": "생각과 실행, 미래의 나를 기록하는 개인 인생 표지판",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#0b1323",
+  "theme_color": "#0b1323",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
