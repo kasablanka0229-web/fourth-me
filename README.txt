@@ -1,6 +1,7 @@
-FOURTH ME PWA
-1. Netlify Drop 등 HTTPS 정적 호스팅에 이 폴더 전체를 배포합니다.
-2. HTTPS 주소를 갤럭시 Chrome에서 열고 메뉴 > 앱 설치 또는 홈 화면에 추가를 누릅니다.
-3. 기존 HTML의 기록은 새 도메인으로 자동 이전되지 않습니다. 기존 HTML에서 JSON 내보내기 후 새 사이트에서 백업 가져오기를 누릅니다.
-4. 업로드한 파일은 공개 웹사이트가 될 수 있습니다. 개인 기록 JSON은 절대 호스팅에 업로드하지 마세요.
-5. 저장은 브라우저 localStorage입니다. 정기적으로 JSON 백업을 보관하세요.
+FOURTH ME V2
+1. Back up V1 JSON from your installed app first.
+2. Upload index.html, manifest.webmanifest, sw.js, icon-192.png, icon-512.png to the ROOT of the existing GitHub fourth-me repository. Do not upload personal JSON records.
+3. Open the existing GitHub Pages URL, reload, and check that V2 appears. Existing V1 local storage is not modified by V2.
+4. Open the 보관함 tab, import V1 JSON, and verify 발자국. V1 action text is preserved as legacyAction, not automatically counted as separate completed tasks.
+5. Add individual tasks in 실행. Export V2 JSON periodically.
+Privacy: data is stored in browser localStorage only, not in GitHub. Clearing browser storage or switching browsers can erase locally stored data. Save JSON externally.
