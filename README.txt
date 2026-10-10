@@ -1,7 +1,10 @@
-FOURTH ME V2
-1. Back up V1 JSON from your installed app first.
-2. Upload index.html, manifest.webmanifest, sw.js, icon-192.png, icon-512.png to the ROOT of the existing GitHub fourth-me repository. Do not upload personal JSON records.
-3. Open the existing GitHub Pages URL, reload, and check that V2 appears. Existing V1 local storage is not modified by V2.
-4. Open the 보관함 tab, import V1 JSON, and verify 발자국. V1 action text is preserved as legacyAction, not automatically counted as separate completed tasks.
-5. Add individual tasks in 실행. Export V2 JSON periodically.
-Privacy: data is stored in browser localStorage only, not in GitHub. Clearing browser storage or switching browsers can erase locally stored data. Save JSON externally.
+FOURTH ME V3 — 설치 안내
+
+1. 기존 FOURTH ME V2 앱의 보관함에서 JSON을 내보내 백업하세요.
+2. GitHub fourth-me 저장소 루트에 index.html, manifest.webmanifest, sw.js, icon-192.png, icon-512.png 파일을 각각 업로드하여 덮어쓰세요. ZIP 파일 자체를 올리지 마세요.
+3. GitHub Pages 주소에서 새로고침하고 V3 표시 및 마인드맵 탭을 확인하세요. 캐시로 V2가 보이면 앱을 완전히 닫았다 다시 열어보세요.
+4. V2 기록은 기존 fourth-me-v2-data 로컬 저장소에 그대로 유지됩니다. 마인드맵은 fourth-me-v3-mindmap 별도 키를 사용합니다.
+5. 마인드맵의 V3 통합 백업 기능으로 기존 기록과 마인드맵을 함께 내보낼 수 있습니다. 개인 JSON 파일은 GitHub에 업로드하지 마세요.
+6. 브라우저/기기를 바꾸거나 앱 데이터를 삭제하면 로컬 기록이 사라질 수 있으므로 정기 백업이 필요합니다.
+
+새 기능: 마인드맵 6개 노드 선택, 키워드·메모 편집, 실행 영역 연결, 완료율 확인, 확대·축소, V3 통합 백업·복원.
